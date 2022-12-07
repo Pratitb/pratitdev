@@ -1,0 +1,33 @@
+#footer {
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0 0;
+  padding: 15px 0;
+  border-top: 3px solid #ddd;
+
+  .footer-part-one {
+    
+      img {
+        border-radius: 50%;
+        box-shadow: 3px 10px 20px #a7a7a7;
+      }
+      p{
+        font-weight: 600;
+        font-size: 1.9rem;
+        margin-left: 1rem;
+      }
+  }
+  .social-links{
+
+    h1{
+      font-size: 1.7em;
+    }
+    a{
+      img{
+        width: 20px;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

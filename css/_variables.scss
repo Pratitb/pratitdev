@@ -1,0 +1,12 @@
+$section-padding:5rem 2rem;
+$headingSize: 46px;
+$primary: #ffca28;
+$textColor: #263238;
+
+@mixin flex($jc, $ai, $direction) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $direction;
+    
+}

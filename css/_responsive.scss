@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1024px){
+    .mobile-menu-wrapper{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .mobile-menu-wrapper{
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%) !important;
+        padding: 10px 20px;
+        border-radius: 5px;
+        z-index: 1;
+        background-color: $primary;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .menu-item a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-item:not(:last-child){
+        margin: 0 15px 0 0;
+    }
+    .menu-item-space, .menu-icons{
+        color: #000;
+    }
+    .navigation .navigation-links{
+        display: none;
+    }
+    #home{
+        margin: 50px 0 150px;
+    }
+    #home .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .atf-content{
+        text-align: center;
+        margin: 0 0 70px;
+    }
+    #services{
+        margin: 40px 0 80px;
+    }
+    #services .section-heading h1{
+        margin: 0 0 50px 0;
+    }
+    #services .services .service{
+        margin: 0 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navigation .container{
+        justify-content: center;
+    }
+    #home .home-heading-one{
+        font-size: 18px;
+    }
+    #home .home-heading-two, #services .section-heading h1, #trust .trusted-brands h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    #services .services .service .service-details p{
+        font-size: 16px;
+    }
+    #services .services .service img{
+        max-width: 64px;
+        max-height: 64px;
+    }
+    #trust .trusted-brands .brands img{
+        max-width: 90px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #home .home-heading-one{
+        font-size: 14px;
+    }
+    #home .home-heading-two, #services .section-heading h1, #trust .trusted-brands h1{
+        font-size: 24px;
+    }
+    #services{
+        margin: 40px 0;
+    }
+    #services .services{
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #services .services .service .service-details h2{
+        font-size: 18px;
+    }
+    #services .services .service .service-details p{
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    #services .services .service img{
+        max-width: 48px;
+        max-height: 48px;
+    }
+    #trust .trusted-brands .brands img{
+        max-width: 70px;
+    }
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_year{
+        margin: 0 0 10px;
+    }
+}

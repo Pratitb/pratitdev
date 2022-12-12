@@ -69,6 +69,53 @@
         
         max-width: 350px;
     }
+    #contact .contact-main-content{
+        flex-direction: column;
+    }
+    #contact .contact-heading h1{
+        font-size: 36px;
+    }
+    #contact .contact-main-content .contact-descriptive-content{
+        margin: 0;
+    }
+    #contact .contact-main-content .contact-descriptive-content .contact-descriptive-heading{
+        font-size: 20px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .contact-descriptive-text{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #contact .contact-main-content .contact-descriptive-content .icon-content .icon .fas{
+        max-width: 36px;
+        max-height: 36px;
+        font-size: 1rem;
+    }
+    #contact .contact-main-content .contact-descriptive-content .icon-content .icon .icon-text{
+        font-size: 16px;
+        margin: 0 0 0 16px;
+    }
+    .icon-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #reviews .reviews-description{
+        text-align: center;
+    }
+    #reviews .reviews-description h1{
+        font-size: 36px;
+    }
+    #reviews .reviews-description .reviews-description-para, #reviews .reviews .review-card .reviews-card-detail{
+        font-size: 18px;
+    }
+    #reviews .reviews{
+        flex-direction: column;
+    }
+    #reviews .reviews .review-card{
+        max-width: 550px;
+    }
+    #reviews .reviews .review-card:not(:last-child){
+        margin: 0 0 20px;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -150,6 +197,28 @@
     #footer{
         margin: 30px 0 0;
     }
+    #contact .contact-heading h1{
+        font-size: 30px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .contact-descriptive-heading{
+        font-size: 18px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .contact-descriptive-text{
+        font-size: 14px;
+    }
+    #reviews .reviews-description h1{
+        font-size: 30px;
+    }
+    #reviews .reviews-description .reviews-description-para, #reviews .reviews .review-card .reviews-card-detail{
+        font-size: 16px;
+    }
+    #reviews .reviews .review-card{
+        padding: 25px 30px;
+        border-radius: 10px;
+    }
+    #reviews .reviews .review-card:hover{
+        transform: scale(1.06);
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -199,5 +268,29 @@
     }
     .connect .connect-button{
         padding: 13px 16px;
+    }
+    #contact .contact-heading{
+        margin: 40px 0 0;
+    }
+    #contact .contact-heading h1{
+        font-size: 20px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .contact-descriptive-heading{
+        font-size: 16px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .icon-content .icon .icon-text{
+        font-size: 14px;
+    }
+    #contact .contact-main-content .contact-descriptive-content .icon-content .icon img{
+        max-width: 36px;
+    }
+    #reviews .reviews-description h1{
+        font-size: 20px;
+    }
+    #reviews .reviews-description .reviews-description-para, #reviews .reviews .review-card .reviews-card-detail{
+        font-size: 15px;
+    }
+    #reviews .reviews .review-card .reviews-card-detail{
+        margin: 0 0 6px;
     }
 }

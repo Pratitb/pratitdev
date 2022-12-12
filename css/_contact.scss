@@ -1,7 +1,7 @@
 #contact {
   display: flex;
   flex-direction: column;
-  padding: 0 1.2rem;
+  
 
   align-items: center;
   .contact-heading {
@@ -36,15 +36,17 @@
               align-items: center;
               margin-bottom: 1.5rem;
               cursor: default;
-              &:hover .fas{
+              &:hover img{
                 background: $primary;
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
               }
-              .fas{
-                  background: rgba(255, 220, 40, 0.2);
-                  padding: 1rem;
-                  border-radius: 1rem;
-                  transition: 0.2s linear;
-                  
+              img{
+                background-color: $lightPrimary;
+                border-radius: 5px;
+                padding: 7px;
+                max-width: 48px;
+                max-height: 48px;
               }
              .icon-text{
                  font-size: 1.3rem;

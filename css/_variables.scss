@@ -1,7 +1,8 @@
 $section-padding:5rem 2rem;
 $headingSize: 46px;
-$primary: #ffca28;
-$lightPrimary:rgba(255, 202, 40, 0.2);
+$primary: #a5d6a7;
+$lightPrimary:rgba(165, 214, 167, 0.2);
+$darkPrimary: #75a478;
 $textColor: #263238;
 
 @mixin flex($jc, $ai, $direction) {

@@ -92,14 +92,16 @@
       max-width: 350px;
       display: flex;
       flex-direction: column;
-      background: #fff;
       padding: 2rem;
-      box-shadow: 3px 10px 20px #a7a7a7;
       border-radius: 2rem;
       transition: 0.3s;
+      box-shadow: 3px 10px 20px #a7a7a7;
+      border: 4px solid #fff;
+      background-color: #fff;
       cursor: pointer;
       &:hover{
         transform: scale(1.1);
+        border: 4px solid $primary;
       }
       .reviews-card-detail{
         font-size: 1.3rem;

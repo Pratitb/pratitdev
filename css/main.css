@@ -152,7 +152,7 @@
   font-size: 46px;
   font-weight: 600;
   margin-bottom: 3rem;
-  max-width: 800px;
+  max-width: 500px;
   color: #263238;
 }
 
@@ -494,7 +494,7 @@
 }
 
 #reviews .reviews .review-card {
-  max-width: 350px;
+  max-width: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +502,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 2rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -519,9 +519,9 @@
 }
 
 #reviews .reviews .review-card .reviews-card-detail {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   margin-bottom: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
 }
 
 #reviews .reviews .review-card .reviews-card-detail .review-keyword {
@@ -547,7 +547,7 @@
 }
 
 #reviews .reviews .review-card .company-details p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
